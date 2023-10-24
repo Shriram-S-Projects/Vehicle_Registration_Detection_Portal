@@ -1,0 +1,136 @@
+:root{
+    font-size: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+    --primary-blue: #233975;
+}
+header *{ 
+	padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+header nav{
+	background: white;
+    height: 80px;
+    width: 100%;
+    font-family: 'Segoe UI', sans-serif;
+}
+header img.imageLogo{
+    width: 190px;
+    margin-left: 50px;
+    margin-top: 7px;
+    border-radius: 15px;
+}
+header img.imageLogo:hover{
+	background: white;
+}
+header nav ul{
+    float: right;
+    margin-right: 20px;
+}
+header nav ul li{
+	display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+header nav ul li a{
+	color: white;
+	background: #233975;
+    font-size: 14px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+    border-radius: 30px;
+}
+header nav ul li a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+.screen ul li{
+	display: inline-block;
+    margin: 0 5px;
+}
+.screen ul li a{
+	color: white;
+	background: #A70052;
+    font-size: 15px;
+    padding: 10px 50px 10px 50px;
+    text-transform: uppercase;
+    border-radius: 50px;	
+    text-decoration: none;
+}
+.screen ul li a:hover{
+	background: #1b9bff;
+	transition: .5s;
+}
+@media (max-width: 952px) {
+	header label.logo{
+		font-size: 30px;
+        padding-left: 50px;                
+    }            
+    header nav ul li a{
+        font-size: 16px;
+    }
+}
+@media (max-width: 720px) {
+	header label.logo{
+		font-size: 15px;
+        padding-left: 10px;                
+    }            
+    header nav ul li a{
+        font-size: 10px;
+    }
+}
+footer{	
+	position: absolute;
+	left: 0;
+	right: 0;
+	background: #111;
+	height: auto;
+	width: auto;
+	color: white;
+}
+.footer-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer-content p{	
+	margin: 10px auto;
+	line-height: 28px;
+	font-size: 14px;
+}
+body{
+	padding: 0;
+	margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: 500;
+}
+.screen h1{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: white;
+}
+.screen{
+	display: block;
+    padding-top: 300px;
+    align-items: center;
+    background-image: url('bg.png');
+}
+.logout{
+	margin-top: 10px;
+    cursor: pointer;
+}
+@media screen and (min-width: 900px){
+    .screen{
+        height: 70vh;
+    }
+}
