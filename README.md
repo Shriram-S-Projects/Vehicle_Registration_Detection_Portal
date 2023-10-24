@@ -4,11 +4,18 @@ Vehicle Registration Detection Portal
 **Project Demo Video: https://youtu.be/sQHKdfUNGLs**
 
 **Project Development:** Eclipse
+
 **Frontend:** HTML, CSS, JSP
+
 **Backend:** Java Programming Language, Java Server Pages
+
 **Database used:** MySQL Database
+
 **Local Server used:** Tomcat Server
+
 **Automatic License Plate Recognition API used.**
+
+**New Maven Project has been created and used in Eclipse IDE**
 
 **Automatic License Plate Recognition API** is being used in this project for recognition of the registration number in License plates in Vehicles with Higher Accuracy and also works well with low-resolution images, vehicle license plate recognition at night, etc. Since this API gives output of recognition of the registration number in License plates in Vehicles with Higher Accuracy this API is used in the project. 
 
