@@ -3,6 +3,8 @@ Vehicle Registration Detection Portal
 
 **Project Demo Video: https://youtu.be/sQHKdfUNGLs**
 
+**Project Demo Video for Detection of Vehicle Registration Number for photo of vehicles taken at night: https://youtu.be/7NpUWmt49NY**
+
 **Project Development:** Eclipse
 
 **Frontend:** HTML, CSS, JSP
@@ -43,3 +45,29 @@ When we go to view previously detected vehicle registration number, all the prev
 Then we can click on Logout to logout out of the Website. 
 
 ![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/a51ded41-c068-45e5-91e0-388421a794db)
+
+**This Vehicle Registration Detection Portal works well with photo of vehicles taken at night and the accuracy of detection of Vehicle Registration Number is also very high using the Automatic License Plate Recognition API.**
+
+We are logging into the Portal and click on Upload Vehicle Image option. 
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/4727b98c-3d02-4360-b43c-cb520dc428e1)
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/1e2506ad-491e-4ad3-87f9-6488ee13763a)
+
+Photo of vehicles taken at night are uploaded one by one and detected successfully the Vehicle Registration Number. 
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/d417d4d8-be59-42d7-9984-faf1f310debb)
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/add6876e-35f4-49d7-9662-df2bcd3c96c6)
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/6a97248d-4cc3-4d4e-975a-af04277c8d70)
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/c36b3e4f-4aa4-4d14-980f-b92c094dbefc)
+
+By clicking on the View Previously Uploaded Vehicle Registration Number option we can see the previously uploaded Vehicle Image File names and their respective Detected Vehicle Registration Numbers. 
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/53c23f48-6152-4498-a923-4e7008319154)
+
+In MySQL Database the data is stored as below,
+
+![image](https://github.com/Shriram-S-Projects/Vehicle_Registration_Detection_Portal/assets/148881882/0223b932-aa5c-4ddf-8078-1d04436a8efc)
